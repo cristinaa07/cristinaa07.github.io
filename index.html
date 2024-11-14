@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+
+    <!-- Inicio -->
+    <header id="inicio">
+        <div class="profile">
+            <span class="profile-name"></span>
+            <img src="LOGO.png" alt="Cristina Qian Huang" class="profile-image">
+
+        </div>
+        <div class="banner">
+            <h1>Cristina Qian Huang</h1>
+        </div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="cookies">
+            Este sitio usa cookies. <button onclick="this.parentElement.style.display='none'">Aceptar</button>
+        </div>
+    </header>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi">
+        <div class="card">
+            <h2>Sobre Mí</h2>
+            <p>Mi nombre es Cristina, he terminado la ESO (Educación Secundaria Obligatoria) y estoy estudiando un Grado Medio en Sistemas Microinformáticos y Redes (SMR)</p>
+            <div class="social-icons">
+                <!-- Ejemplo de íconos de redes sociales -->
+                <a href="#"><img src="FACEBOOK.png" alt="Facebook" class="facebook-logo"></a>
+                <a href="#"><img src="INSTAGRAM.jpg" alt="Instagram" class="instagram-logo"></a>
+                <a href="#"><img src="TIKTOK.png" alt="Tiktok" class="tiktok-logo"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Proyectos -->
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="gallery">
+            <!-- Ejemplo de proyecto -->
+            <div class="project">
+                <img src="HTML.png" alt="Proyecto 1">
+                <h3>HTML</h3>
+                <p>Consiste en hacer códigos.</p>
+            </div>
+            <div class="project">
+                <img src="DNS.avif" alt="Proyecto 2">
+                <h3>DNS</h3>
+                <p>Consiste en completar información sobre el DNS.</p>
+            </div>
+            <div class="project">
+                <img src="DHCP.png" alt="Proyecto 3">
+                <h3>DHCP</h3>
+                <p>Consiste en configurar los servidores por DHCP.</p>
+            </div>
+            <div class="project">
+                <img src="ubuntu.jpg" alt="Proyecto 4">
+                <h3>UBUNTU</h3>
+                <p>Consiste en probar comandos en Linux.</p>
+            </div>
+            <div class="project">
+                <img src="windows.avif" alt="Proyecto 5">
+                <h3>WINDOWS</h3>
+                <p>Consiste en realizar copias de seguridad.</p>
+            </div>
+            <div class="project">
+                <img src="packet tracer.webp" alt="Proyecto 6">
+                <h3>PACKET TRACER</h3>
+                <p>Consiste en configurar las direcciones IP de cada servidor.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades y Conocimientos</h2>
+        <div class="skill">
+            <h3>HTML</h3>
+            <img src="HTML.webp"alt="HTML" class="html-info">
+            <p>Es un lenguaje que permite crear códigos para una página web. Utiliza etiquetas para definir un título, párrado, etc. Suele utilizarse con el CSS para que los diseños sean más bonitos.</p>
+            <div class="skill-bar">
+                <div class="progress" style="width: 80%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Quieres contratarme? ¡Hablemos!</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 Cristina Qian Huang</p>
+    </footer>
+
+</body>
+</html>

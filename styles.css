@@ -1,0 +1,211 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body {
+    background-image: url('fondo\ lila.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+}
+
+header {
+    background: white;
+    color: black;
+    padding: 20px 0 0;
+    text-align: center;
+}
+
+.profile {
+    text-align: center; /* Centra el texto y el logo */
+  }
+  
+  .profile-name {
+    display: block; /* Asegura que el texto esté en una línea separada */
+    font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+  }
+  
+  .profile-logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-top: 10px; /* Espacio entre el texto y el logo */
+  }
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: darkorchid; /* Morado oscuro */
+    padding: 10px 0;
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio adicional encima de la barra de navegación */
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Espaciado interno para los enlaces */
+    display: inline-block; /* Para que el padding funcione correctamente */
+}
+
+nav a:hover {
+    background-color: purple; /* Morado más claro al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados en hover */
+}
+
+.cookies {
+    background: darkred; /* Fondo semi-transparente */
+    padding: 10px; /* Espaciado interno */
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 0; /* Posición en la parte inferior */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Centrar el texto */
+    z-index: 1000; /* Asegurarse de que esté por encima de otros elementos */
+    color: white;
+}
+
+.card, .project, .skill {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+.facebook-logo:hover {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) hue-rotate(200deg) brightness(110%); /* Cambia el color al pasar el ratón */
+}
+
+.instagram-logo:hover {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) hue-rotate(200deg) brightness(110%); /* Cambia el color al pasar el ratón */
+}
+
+.html-info {
+    width: 500px;
+}
+
+.facebook-logo {
+    width: 50px; /* Ajusta el ancho de la imagen a 50 píxeles */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+  .instagram-logo {
+    width: 50px; /* Ajusta el ancho de la imagen a 50 píxeles */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+  .tiktok-logo {
+    width: 50px; /* Ajusta el ancho de la imagen a 50 píxeles */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+.card h2, .project h2, .skill h2 {
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    margin: 10px;
+    width: calc(33% - 20px);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.skill-bar {
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background: #007BFF;
+    height: 100%;
+    border-radius: 5px;
+}
+
+form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: darkorchid;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: darkorchid;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
